@@ -1,19 +1,22 @@
+'use client';
+
+import {Navbar } from 'flowbite-react';
+
 export default function Header() {
     return (
         <div className="flex justify-center">
-            <Navbar rounded className="bg-blue-800 ustify-center max-w-7xl w-full flex ">
-                <Navbar.Collapse className="mx-auto bg-blue-400">
-                    <Navbar.Link href="#">About</Navbar.Link>
-                    <Navbar.Link href="#">Services</Navbar.Link>
-                    <Navbar.Link href="#">Pricing</Navbar.Link>
-                    <Navbar.Link href="#">Contact</Navbar.Link>
+            <Navbar className="bg-blue-200 justify-center max-w-7xl w-full flex ">
+                <Navbar.Toggle />
+                <Navbar.Collapse className="mx-auto">
+                    <Navbar.Link href="#about" className="mx-8">About</Navbar.Link>
+                    <Navbar.Link href="#skills" className="mx-8">Skills</Navbar.Link>
+                    <Navbar.Link href="#" className="mx-8">Pricing</Navbar.Link>
+                    <Navbar.Link href="#" className="mx-8">Contact</Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>
         </div>
 
-)
+    )
 }
 
-'use client';
 
-import { Navbar } from 'flowbite-react';
