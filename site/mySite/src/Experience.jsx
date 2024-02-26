@@ -1,25 +1,51 @@
-import {Timeline } from 'antd';
+import {ConfigProvider, Timeline} from 'antd';
+import { ClockCircleOutlined } from '@ant-design/icons';
+import {Dot} from "recharts";
 
 export default function Experience() {
     return (
-        <Timeline className="mx-auto mt-10"
-            mode='left'
-            items={[
-                {
-                    label: '2015-09-01',
-                    children: 'Captain Promotion LTD',
+        <ConfigProvider
+            theme={{
+                token: {
+                    colorText: '#fff',
+                    tailColor: '#fff',
                 },
-                {
-                    children: 'Graphic Designer',
-                },
-                {
-                    label: '2015-09-01',
-                    children: 'University of South Wales Student Union',
-                },
-                {
-                    children: 'Vice-President of Activities',
-                },
-            ]}
-        />
+
+                components: {
+                    Timeline: {
+                        tailColor: '#84828f',
+                    }
+                }
+
+
+
+            }}
+        >
+            <Timeline className="mx-auto mt-10"
+                      mode='left'
+                      items={[
+                          {
+                              color: '#6A687A',
+                              label: 'Feb 2020 – Feb 2021',
+                              children: 'Captain Promotion LTD',
+                          },
+                          {
+                              color: '#6A687A',
+                              children: 'Graphic Designer',
+                          },
+                          {
+                              color: '#6A687A',
+                              label: 'June 2023 – January 2024',
+                              children: 'University of South Wales Student Union',
+                          },
+                          {
+                              color: '#6A687A',
+                              children: 'Vice-President of Activities',
+                          },
+                      ]}
+            />
+        </ConfigProvider>
+
+
     );
 };

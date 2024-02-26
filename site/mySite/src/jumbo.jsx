@@ -3,7 +3,7 @@
 function Jumbo() {
     return (
         <div className="flex justify-center">
-            <div className="max-w-7xl w-full h-screen rounded-none bg-blue-300 border-2 border-black">
+            <div className="max-w-7xl w-full h-screen rounded-none">
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Noteworthy technology acquisitions 2021
                 </h5>

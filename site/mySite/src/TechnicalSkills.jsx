@@ -2,70 +2,70 @@
 
 export default function TechnicalSkills(){
     return(
-        <div className="grid grid-cols-8 gap-4">
+        <div className="grid grid-cols-8 gap-4 items-center">
             <div className="">
-                    <img src="../public/C++.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">C++</p>
+                    <img src="C++.png" alt="test" className="mx-auto w-auto h-14" />
+                    <p className="text-center text-white">C++</p>
             </div>
             <div className="">
-                    <img src="../public/Csharp.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">C#</p>
+                    <img src="Csharp.png" alt="test" className="mx-auto w-auto h-14" />
+                    <p className="text-center text-white">C#</p>
             </div>
             <div className="">
-                    <img src="../public/Python.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">Python</p>
+                    <img src="Python.png" alt="test" className="mx-auto w-auto h-14" />
+                    <p className="text-center text-white">Python</p>
             </div>
             <div className="">
-                    <img src="../public/java.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">Java</p>
+                    <img src="java.png" alt="test" className="mx-auto w-auto h-14" />
+                    <p className="text-center text-white">Java</p>
             </div>
             <div className="">
-                    <img src="../public/R.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">R</p>
+                    <img src="R.png" alt="test" className="mx-auto w-auto h-14" />
+                    <p className="text-center text-white">R</p>
             </div>
             <div className="">
-                    <img src="../public/Kotlin.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">Kotlin</p>
+                    <img src="Kotlin.png" alt="test" className="mx-auto w-auto h-14" />
+                    <p className="text-center text-white">Kotlin</p>
             </div>
             <div className="">
-                    <img src="../public/HTML.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">HTML</p>
+                    <img src="HTML.png" alt="test" className="mx-auto w-auto h-14" />
+                    <p className="text-center text-white">HTML</p>
             </div>
             <div className="">
-                    <img src="../public/CSS.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">CSS</p>
+                    <img src="CSS.png" alt="test" className="mx-auto w-auto h-14" />
+                    <p className="text-center text-white">CSS</p>
             </div>
             <div className="">
-                    <img src="../public/JavaScript.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">JavaScript</p>
+                    <img src="JavaScript.png" alt="test" className="mx-auto w-auto h-14" />
+                    <p className="text-center text-white">JavaScript</p>
             </div>
             <div className="">
-                    <img src="../public/PHP.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">PHP</p>
+                    <img src="PHP.png" alt="test" className="mx-auto w-auto h-14" />
+                    <p className="text-center text-white">PHP</p>
             </div>
             <div className="">
-                    <img src="../public/.NET.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">.NET</p>
+                    <img src=".NET.png" alt="test" className="mx-auto w-auto h-14" />
+                    <p className="text-center text-white">.NET</p>
             </div>
             <div className="">
-                    <img src="../public/SQL.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">SQL</p>
+                    <img src="SQL.png" alt="test" className="mx-auto w-auto h-14" />
+                    <p className="text-center text-white">SQL</p>
             </div>
             <div className="">
-                    <img src="../public/Oracle.png" alt="test" className="mx-auto " />
-                    <p className="text-center">Oracle</p>
+                    <img src="Oracle.png" alt="test" className="mx-auto" />
+                    <p className="text-center text-white">Oracle</p>
             </div>
             <div className="">
-                    <img src="../public/MongoDB.png" alt="test" className="m-auto " />
-                    <p className="text-center">MongoDB</p>
+                    <img src="MongoDB.png" alt="test" className="mx-auto" />
+                    <p className="text-center text-white">MongoDB</p>
             </div>
             <div className="">
                     <img src="../public/React.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">React</p>
+                    <p className="text-center text-white">React</p>
             </div>
             <div className="">
                     <img src="../public/Arduino.png" alt="test" className="mx-auto w-auto h-14" />
-                    <p className="text-center">Arduino</p>
+                    <p className="text-center text-white">Arduino</p>
             </div>
         </div>
     );
