@@ -10,7 +10,7 @@ export default function Header() {
                 <Navbar.Collapse className="mx-auto">
                     <Navbar.Link href="#about" className="mx-8">About</Navbar.Link>
                     <Navbar.Link href="#skills" className="mx-8">Skills</Navbar.Link>
-                    <Navbar.Link href="#" className="mx-8">Pricing</Navbar.Link>
+                    <Navbar.Link href="#" className="mx-8">Projects</Navbar.Link>
                     <Navbar.Link href="#" className="mx-8">Contact</Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>
