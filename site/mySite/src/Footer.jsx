@@ -6,8 +6,8 @@ export default function SiteFooter() {
         <div className="flex justify-center">
             <div className="bg-blue-200 justify-center max-w-7xl w-full flex ">
                 <Footer container className="rounded-none bg-[#2C3D55]">
-                    <Footer.Copyright href="#" by="KenzTheDev™" year={2024} />
-                    <Footer.LinkGroup>
+                    <Footer.Copyright href="#" by="KenzTheDev™" year={2024} className="text-center" />
+                    <Footer.LinkGroup className="justify-center mt-2">
                         {/*CV*/}
                         <Footer.Link href="/CV.pdf" download="Kenul-Herath-CV-2024">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"

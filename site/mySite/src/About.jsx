@@ -7,10 +7,10 @@ export default function About() {
             <div className=" max-w-7xl w-full rounded-none">
             {/*<div className=" max-w-7xl w-full h-screen rounded-none bg-blue-300">*/}
                 <h1 className="text-4xl text-center text-sectionHeadings font-bold my-8">About Me</h1>
-                <div className="flex md:flex-row mx-4">
+                <div className="flex flex-col md:flex-row mx-4">
                     <div className="md:basis-2/3">
                         <div>
-                            <p className="p-8 text-justify text-textFont leading-8 tracking-wide">
+                            <p className="p-8 text-justify text-textFont leading-8 md:tracking-wide">
                                 I am a passionate and dedicated second-year Computer Science undergraduate,
                                 driven by a passion for technology and a curiosity to explore its limitless
                                 possibilities.

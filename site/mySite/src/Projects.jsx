@@ -10,7 +10,7 @@ export default function Projects() {
                 <h1 className="text-4xl text-center text-sectionHeadings font-bold my-8">Projects</h1>
 
                 <div className="flex justify-center mt-12">
-                    <div className="grid lg:grid-cols-2 lg:grid-rows-2 gap-8">
+                    <div className="grid mx-4 lg:grid-cols-2 lg:grid-rows-2 gap-8">
                         <Card className="max-w-sm h-full w-full bg-projectsCard border-0">
                             <div className="flex flex-col h-full w-full space-y-4">
                                 <div className="flex-none">

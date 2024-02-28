@@ -2,7 +2,7 @@
 
 export default function TechnicalSkills(){
     return(
-        <div className="grid grid-cols-8 gap-4 items-center">
+        <div className="grid grid-cols-4 gap-6 md:grid-cols-8 md:gap-4 items-center">
             <div className="">
                     <img src="C++.png" alt="test" className="mx-auto w-auto h-14" />
                     <p className="text-center text-white">C++</p>
