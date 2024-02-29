@@ -1,21 +1,59 @@
 'use client';
 
-function Jumbo() {
-    return (
-        <div className="flex justify-center">
-            <div className="max-w-7xl w-full h-screen rounded-none">
-                <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Noteworthy technology acquisitions 2021
-                </h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                    Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological
-                    order.
-                </p>
-            </div>
+import React from 'react';
+import Dividers from "./Dividers.jsx";
 
-        </div>
+class Jumbo extends React.Component {
+    scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
 
-    );
+    render() {
+        return (
+            <>
+                <div className="flex justify-center items-center h-screen">
+                    <div className="text-center max-w-7xl w-full">
+                        <h1 className="text-5xl font-bold tracking-tight inline-block">Hey There, I'm Kenul Herath</h1>
+                        <h3 className="text-3xl tracking-tight inline-block">(Kenzy)</h3>
+                        <h1 className="text-5xl font-bold tracking-tight inline-block">!</h1>
+                        <h1 className="text-5xl tracking-tight">Welcome to my Portfolio</h1>
+
+                        <div className="max-w-4xl w-full mx-auto">
+                            <Dividers/>
+                        </div>
+
+
+                        <p className="text-2xl max-w-4xl mx-auto">
+                            Aspiring software developer with a passion for creating diverse applications.
+                            Currently pursuing Computer Science at the University of South Wales.
+                        </p>
+
+                        <div className="text-center mt-32"
+                            onClick={() => this.scrollToSection('about')}
+                             style={{cursor: 'pointer'}}>
+
+                            <svg className="bi bi-chevron-compact-down text-center mx-auto animate-bounce text-headerFont"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 width="16" height="16"
+                                 fill="currentColor"
+                                 viewBox="0 0 16 16">
+
+                                <path fillRule="evenodd"
+                                      d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6
+                                      3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67"/>
+
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </>
+        );
+    }
+
 }
 
 export default Jumbo;

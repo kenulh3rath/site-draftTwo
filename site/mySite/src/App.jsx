@@ -11,11 +11,10 @@ function App() {
 
 
   return (
-      <div className="bg-[#2C3D55]">
+      <div className="bg-backGround">
           <Header/>
           <Jumbo/>
           <About/>
-          <Dividers/>
           <Skills/>
           <Projects/>
           <SiteFooter/>

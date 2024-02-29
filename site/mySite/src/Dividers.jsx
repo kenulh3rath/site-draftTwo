@@ -8,7 +8,7 @@ export default function Dividers() {
                     theme={{
                         token: {
                             lineWidth: '6px',
-                            colorSplit: '#006480',
+                            colorSplit: '#E8EDDF',
                         },
                     }}
                 >

@@ -4,8 +4,8 @@ import { Footer } from 'flowbite-react';
 export default function SiteFooter() {
     return(
         <div className="flex justify-center">
-            <div className="bg-blue-200 justify-center max-w-7xl w-full flex ">
-                <Footer container className="rounded-none bg-[#2C3D55]">
+            <div className="bg-backGround justify-center max-w-7xl w-full flex ">
+                <Footer container className="rounded-none shadow-none bg-backGround">
                     <Footer.Copyright href="#" by="KenzTheDev™" year={2024} className="text-center" />
                     <Footer.LinkGroup className="justify-center mt-2">
                         {/*CV*/}

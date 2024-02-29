@@ -14,18 +14,18 @@ export default function Projects() {
                         <Card className="max-w-sm h-full w-full bg-projectsCard border-0">
                             <div className="flex flex-col h-full w-full space-y-4">
                                 <div className="flex-none">
-                                    <h5 className="text-2xl text-center font-bold text-sectionSubHeadings">
+                                    <h5 className="text-2xl text-center font-bold text-projectCardHeading">
                                         Flight Simulator
                                     </h5>
                                 </div>
-                                <div className="flex-1 flex flex-col justify-center">
-                                    <p className="font-normal text-textFont">
+                                <div className="flex-1 flex flex-col justify-center text-projectsCard">
+                                    <p className="font-normal text-projectCardFont">
                                         Here are the biggest enterprise technology acquisitions of 2021 so far, in
                                         reverse chronological order.
                                     </p>
                                 </div>
                                 <div className="flex-none text-center">
-                                    <a href="" className="text-textFont">Read More...</a>
+                                    <a href="" className="text-sectionSubHeadings">Read More...</a>
                                 </div>
                             </div>
                         </Card>
@@ -33,18 +33,18 @@ export default function Projects() {
                         <Card className="max-w-sm h-full w-full bg-projectsCard border-0">
                             <div className="flex flex-col h-full w-full space-y-4">
                                 <div className="flex-none">
-                                    <h5 className="text-2xl text-center font-bold text-sectionSubHeadings">
+                                    <h5 className="text-2xl text-center font-bold text-projectCardHeading">
                                         Car Crash Avoidance System
                                     </h5>
                                 </div>
                                 <div className="flex-1 flex flex-col justify-center">
-                                    <p className="font-normal text-textFont">
+                                    <p className="font-normal text-projectCardFont">
                                         Here are the biggest enterprise technology acquisitions of 2021 so far, in
                                         reverse chronological order.
                                     </p>
                                 </div>
                                 <div className="flex-none text-center">
-                                    <a href="" className="text-textFont">Read More...</a>
+                                    <a href="" className="text-sectionSubHeadings">Read More...</a>
                                 </div>
                             </div>
                         </Card>
@@ -52,18 +52,18 @@ export default function Projects() {
                         <Card className="max-w-sm h-full w-full bg-projectsCard border-0">
                             <div className="flex flex-col h-full w-full space-y-4">
                                 <div className="flex-none">
-                                    <h5 className="text-2xl text-center font-bold text-sectionSubHeadings">
+                                    <h5 className="text-2xl text-center font-bold text-projectCardHeading">
                                         Inventory Management System
                                     </h5>
                                 </div>
                                 <div className="flex-1 flex flex-col justify-center">
-                                    <p className="font-normal text-textFont">
+                                    <p className="font-normal text-projectCardFont">
                                         Here are the biggest enterprise technology acquisitions of 2021 so far, in
                                         reverse chronological order.
                                     </p>
                                 </div>
                                 <div className="flex-none text-center">
-                                    <a href="" className="text-textFont">Read More...</a>
+                                    <a href="" className="text-sectionSubHeadings">Read More...</a>
                                 </div>
                             </div>
                         </Card>
@@ -71,18 +71,18 @@ export default function Projects() {
                         <Card className="max-w-sm h-full w-full bg-projectsCard border-0">
                             <div className="flex flex-col h-full w-full space-y-4">
                                 <div className="flex-none">
-                                    <h5 className="text-2xl text-center font-bold text-sectionSubHeadings">
+                                    <h5 className="text-2xl text-center font-bold text-projectCardHeading">
                                         Vending Machine Simulator
                                     </h5>
                                 </div>
                                 <div className="flex-1 flex flex-col justify-center">
-                                    <p className="font-normal text-textFont">
+                                    <p className="font-normal text-projectCardFont">
                                         Here are the biggest enterprise technology acquisitions of 2021 so far, in
                                         reverse chronological order.
                                     </p>
                                 </div>
                                 <div className="flex-none text-center">
-                                    <a href="" className="text-textFont">Read More...</a>
+                                    <a href="" className="text-sectionSubHeadings">Read More...</a>
                                 </div>
                             </div>
                         </Card>
