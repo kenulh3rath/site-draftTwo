@@ -37,6 +37,9 @@ export default {
       projectsCard: 'rgba(207, 219, 213, 0.3)',
       projectCardHeading: '#D7B377',
       projectCardFont: '#E8EDDF',
+      headingOne: '#ffbf00',
+      headingTwo: '#ffd24d',
+      headingThree: '#ffff4d',
     }
   },
   plugins: [

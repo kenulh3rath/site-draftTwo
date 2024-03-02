@@ -15,18 +15,18 @@ class Jumbo extends React.Component {
         return (
             <>
                 <div className="flex justify-center items-center h-screen">
-                    <div className="text-center max-w-7xl w-full">
-                        <h1 className="text-5xl font-bold tracking-tight inline-block">Hey There, I'm Kenul Herath</h1>
-                        <h3 className="text-3xl tracking-tight inline-block">(Kenzy)</h3>
-                        <h1 className="text-5xl font-bold tracking-tight inline-block">!</h1>
-                        <h1 className="text-5xl tracking-tight">Welcome to my Portfolio</h1>
+                    <div className="text-center max-w-7xl w-full text-headingOne">
+                        <h1 className="md:text-5xl font-bold tracking-tight inline-block ">Hey There, I'm Kenul Herath</h1>
+                        <h3 className="md:text-3xl tracking-tight inline-block text-headingTwo">(Kenzy)</h3>
+                        <h1 className="md:text-5xl font-bold tracking-tight inline-block">!</h1>
+                        <h1 className="md:text-5xl tracking-tight text-headingTwo">Welcome to my Portfolio</h1>
 
-                        <div className="max-w-4xl w-full mx-auto">
+                        <div className="md:max-w-4xl max-w-2xl w-full mx-auto">
                             <Dividers/>
                         </div>
 
 
-                        <p className="text-2xl max-w-4xl mx-auto">
+                        <p className="md:text-2xl max-w-4xl mx-auto text-headingOne">
                             Aspiring software developer with a passion for creating diverse applications.
                             Currently pursuing Computer Science at the University of South Wales.
                         </p>

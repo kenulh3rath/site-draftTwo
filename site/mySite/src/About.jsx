@@ -6,11 +6,11 @@ export default function About() {
         <div className="flex justify-center" id="about">
             <div className=" max-w-7xl w-full rounded-none">
             {/*<div className=" max-w-7xl w-full h-screen rounded-none bg-blue-300">*/}
-                <h1 className="text-4xl text-center text-sectionHeadings font-bold my-8">About Me</h1>
+                <h1 className="md:text-4xl text-2xl text-center text-sectionHeadings font-bold my-8">About Me</h1>
                 <div className="flex flex-col md:flex-row mx-4">
                     <div className="md:basis-2/3">
                         <div>
-                            <p className="p-8 text-justify text-textFont leading-8 md:tracking-wide">
+                            <p className="md:p-8 md:text-justify text-textFont md:leading-8 md:tracking-wide">
                                 I am a passionate and dedicated second-year Computer Science undergraduate,
                                 driven by a passion for technology and a curiosity to explore its limitless
                                 possibilities.
@@ -30,19 +30,19 @@ export default function About() {
 
                     <div className="md:basis-1/3">
                         <div>
-                            <h4 className="text-2xl text-center text-sectionSubHeadings my-2">Experience</h4>
+                            <h4 className="md:text-2xl text-xl text-center text-sectionSubHeadings my-2">Experience</h4>
                             <Experience/>
                         </div>
                         <div className="space-y-8">
                             <div>
-                                <h4 className="text-2xl text-center text-sectionSubHeadings my-2">Languages</h4>
+                                <h4 className="md:text-2xl text-xl text-center text-sectionSubHeadings my-2">Languages</h4>
                                 <ul className="text-center text-textFont my-2">
                                     <li>English (Fluent)</li>
                                     <li>Sinhala (Fluent)</li>
                                 </ul>
                             </div>
                             <div>
-                                <h4 className="text-2xl text-center text-sectionSubHeadings my-2">Hobbies</h4>
+                                <h4 className="md:text-2xl text-xl text-center text-sectionSubHeadings my-2">Hobbies</h4>
                                 <ul className="text-center text-textFont my-2">
                                     <li>Walking</li>
                                     <li>Coding</li>
