@@ -7,8 +7,8 @@ export default function Dividers() {
                 <ConfigProvider
                     theme={{
                         token: {
-                            lineWidth: '6px',
-                            colorSplit: '#ffff4d',
+                            lineWidth: '4px',
+                            colorSplit: '#fff',
                         },
                     }}
                 >

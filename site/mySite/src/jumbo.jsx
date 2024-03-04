@@ -14,7 +14,7 @@ class Jumbo extends React.Component {
     render() {
         return (
             <>
-                <div className="flex justify-center items-center h-screen">
+                <div className="flex justify-center items-center h-screen px-8">
                     <div className="text-center max-w-7xl w-full text-headingOne">
                         <h1 className="md:text-5xl font-bold tracking-tight inline-block ">Hey There, I'm Kenul Herath</h1>
                         <h3 className="md:text-3xl tracking-tight inline-block text-headingTwo">(Kenzy)</h3>
